@@ -1,0 +1,27 @@
+.element-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    padding: 0;
+    border: 1px dashed black;
+}
+
+.element-with-children {
+    display: flex;
+    flex-direction: column;
+}
+
+.element-with-children-head {
+    border: 1px solid black;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.element-children {
+    display: flex;
+    flex: row;
+}
